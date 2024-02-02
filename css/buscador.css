@@ -1,0 +1,231 @@
+.contenedor-certificados {
+	font-size: 1em;
+	font-family: Helvetica;
+	width: 100%;
+}
+
+.contenedor-certificados .banner {
+	padding-bottom: 20px;
+	background: #e5e8ec;
+}
+
+.contenedor-certificados .banner div {
+	background: #122447;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.5em;
+	width: 100%;
+	padding: 8px 0;
+}
+
+.contenedor-certificados .contenedor-datos {
+	width: 100%;
+	background: #e5e8ec;
+	padding-bottom: 30px;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos {
+	padding: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid #122447;
+	border-radius: 5px;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .datos {
+	width: 250px;
+	border: 1px solid #122447;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	flex: 33%;
+	margin-bottom: 20px;
+	font-size: .9em;
+	overflow: hidden;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .datos div {
+	width: auto;
+	background: #122447;
+	color: #FFFF00;
+	padding: 5px 0 5px 15px;
+	height: 30px;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .datos input {
+	width: 100%;
+	height: 90px;
+	padding: 0;
+	border: none;
+	background: #e5e8ec;
+	text-align: center;
+/*	text-transform: uppercase;*/
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .datos input::placeholder {
+	text-align: center;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .separador {
+	font-weight: 600;
+	color: #122447;
+	padding: 0 20px;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .cedula {
+	
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .captcha {
+	
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .codigo-captcha {
+	
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .buscar {
+	flex: 100%;
+	text-align: center;
+}
+
+.contenedor-certificados .contenedor-datos .marco-datos .buscar div {
+	background: #122447;
+	color: #FFFF00;
+	width: 20%;
+	font-size: .9em;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.contenedor-certificados .resultado {
+	font-size: .9em;
+	width: 100%;
+	margin-top: 20px;
+/*	border: 3px solid #122447;*/
+	/*opacity: 0;
+	transition: .4s all ease;*/
+	position: relative;
+}
+
+/*.contenedor-certificados .resultado.encontrado {
+	opacity: 1;
+}
+*/
+
+.contenedor-certificados .resultado .persona {
+	opacity: 0;
+	transition: .4s all ease;
+	position: absolute;
+	width: 100%;
+	border: 3px solid #122447;
+}
+
+.contenedor-certificados .resultado .persona.encontrado {
+	opacity: 1;
+}
+
+.contenedor-certificados .resultado .informacion {
+	width: auto;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-1 {
+	background: #122447;
+	color: #FFF;
+	padding: 5px 0 5px 10px;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 {
+	
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 .contenido {
+	display: flex;
+	flex-flow: row wrap;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(18,36,71,0.944397742006959) 73%, rgba(255,255,255,1) 97%);
+	margin: 7px;
+	border: 2px solid #a3abb2;
+}
+
+.contenedor-certificados .resultado .informacion table {
+	border-collapse: collapse;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 .contenido .columna-1 table tr td {
+	padding: 5px 0 5px 20px;
+	border-style: none;
+
+}
+
+.contenedor-certificados .resultado .informacion table tr .color {
+	background: #e5e8ec;
+	color: #122447;
+	font-weight: 600;
+	font-size: .9em;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 .contenido .columna-1 table tr .color {
+	text-align: right;
+	padding: 0 20px 0 90px;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 .contenido .columna-2 {
+	margin: auto;
+	text-align: center;
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.contenedor-certificados .resultado .informacion .seccion-2 .contenido .columna-2 .fila-2 {
+	font-size: 1.6em;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-certificados .resultado .informacion .table-2 {
+	width: 99%;
+	margin: 0 auto;
+	margin: 7px;
+	border: 2px solid #a3abb2;
+}
+
+.contenedor-certificados .resultado .informacion .table-2 td {
+	border: 2px solid #a3abb2;
+}
+
+.contenedor-certificados .resultado .informacion .table-2 .color2, .contenedor-certificados .resultado .informacion .table-2 .td1 {
+	height: 70px;
+	text-align: center;
+	width: 16%;
+	padding: 0 10px;
+}
+
+
+
+
+
